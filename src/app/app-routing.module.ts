@@ -1,4 +1,3 @@
-//app-routing.module.ts
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { StudentCreateComponent } from './student-create/student-create.component';

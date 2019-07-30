@@ -1,4 +1,3 @@
-//student-edit.component.ts 
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Student } from '../models/student';
@@ -37,5 +36,4 @@ export class StudentEditComponent implements OnInit {
       this.router.navigate(['list']);
     })
   }
-
 }

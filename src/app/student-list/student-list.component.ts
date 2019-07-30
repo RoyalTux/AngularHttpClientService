@@ -1,4 +1,3 @@
-//student-list.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../services/api.service';
 
@@ -28,7 +27,6 @@ export class StudentListComponent implements OnInit {
       this.studentsData = response;
     })
   }
-
 
   delete(item) {
     //Delete item in Student data

@@ -26,7 +26,5 @@ export class StudentCreateComponent implements OnInit {
     this.apiService.createItem(this.data).subscribe((response) => {
       this.router.navigate(['list']);
     });
-
   }
-
 }

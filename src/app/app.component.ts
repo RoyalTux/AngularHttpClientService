@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-httpclient-demo';
+  title = 'angular-httpclient';
 
   checkboxes = [
     {
@@ -23,7 +23,4 @@ export class AppComponent {
       name:"Item 4"
     }
   ]
-
-
-
 }
