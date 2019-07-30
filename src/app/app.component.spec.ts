@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-httpclient-application'`, () => {
+  it(`should have as title 'angular-httpclient-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-httpclient-application');
+    expect(app.title).toEqual('angular-httpclient-demo');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-httpclient-application!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-httpclient-demo!');
   });
 });

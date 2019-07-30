@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 4,
+      "name": "Max ",
+      "age": "17",
+      "address": "Sadovaya 23"
+    },
+    {
+      "id": 5,
+      "name": "Vasilii Ivanov",
+      "age": "16",
+      "address": "Pushkinskaya 33"
+    },
+    {
+      "name": "Kirill",
+      "age": "25",
+      "address": "Sadovaya st.",
+      "id": 6
+    }
+  ]
+}
